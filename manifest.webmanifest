@@ -1,15 +1,29 @@
 {
+  "id": "./?app=pitir",
   "name": "Pıtır",
   "short_name": "Pıtır",
-  "start_url": "./",
+  "start_url": "./?app=pitir",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff3d6",
   "theme_color": "#ffd23f",
   "icons": [
-    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
-    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
-    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ]
 }
